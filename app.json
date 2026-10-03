@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Pódio Digital",
+    "slug": "podio-digital",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon-3.png",
+    "scheme": "podiodigital",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/expo.icon"
+    },
+    "android": {
+      "package": "com.andre23arruda.podiodigital",
+      "adaptiveIcon": {
+        "backgroundColor": "#208AEF",
+        "foregroundImage": "./assets/images/trophy-icon-foreground-3.png",
+        "backgroundImage": "./assets/images/trophy-icon-background.png",
+        "monochromeImage": "./assets/images/trophy-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon-2.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F55E00",
+          "image": "./assets/images/trophy-splash-icon.png",
+          "imageWidth": 76,
+          "dark": {
+            "backgroundColor": "#121212",
+            "image": "./assets/images/trophy-splash-icon.png"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4800fca5-8846-4281-b6ef-972d0647c368"
+      }
+    }
+  }
+}
